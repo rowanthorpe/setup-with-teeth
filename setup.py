@@ -35,7 +35,7 @@ project = {
         [####]
     ],
     'keywords': [ [####] ],
-    'macros_to_replace': [ 'name', 'username', 'description', 'author', 'author_email', 'license'],
+    'macros_to_replace': ['name', 'username', 'description', 'author', 'author_email', 'license'],
 }
 project['name'] = p_basename(p_dirname(p_realpath(__file__)))
 project['files_to_expand'] = p_join('lib', project['name'] + '.py'), 'README.rst', 'MANIFEST.in'
