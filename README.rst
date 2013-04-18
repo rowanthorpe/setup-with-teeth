@@ -1,6 +1,6 @@
-==========================================================================
-setup-with-teeth: setup.py and file hierarchy to facilitate fast packaging
-==========================================================================
+==============================================================
+setup-with-teeth: setup.py & file hierarchy for fast packaging
+==============================================================
 
 As long as you follow the file hierarchy and a few other conventions, this
 allows for packaging python libraries with minimal developer-time.
