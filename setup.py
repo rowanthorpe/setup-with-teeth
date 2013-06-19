@@ -3,7 +3,7 @@
 #
 # This file is part of [####]. See README.rst for more information.
 #
-# This setup.py and file hierarchy is from the setup-with-teeth project (v0.1.1):
+# This setup.py and file hierarchy is from the setup-with-teeth project (v0.1.2):
 #  https://github.com/rowanthorpe/setup-with-teeth
 #  replace all [####] with your own text
 
