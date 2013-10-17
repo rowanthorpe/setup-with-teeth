@@ -1,16 +1,15 @@
 #/usr/bin/env python
 # encoding: utf-8
 #
-# This file is part of [####]. See README.rst for more information.
+# This file is part of XXXXXXX. See README.rst for more information.
 #
-# This setup.py and file hierarchy is from the setup-with-teeth project (v0.1.3):
+# This setup.py and file hierarchy is from the setup-with-teeth project (v0.1.5):
 #  https://github.com/rowanthorpe/setup-with-teeth
-#  replace all [####] with your own text
+#  replace all XXXXXXX with your own text
 
-'''Setup and build script for [####].'''
+'''Setup and build script for XXXXXXX.'''
 
 # FIXME(_find_packages()): Directory recursion (present version is a quick hack)
-# FIXME: Add macro replacement based on python version
 # FIXME: Make updating files with paths part of the build pass, not post-install
 # FIXME: Make macro expansion in "run_XXXXXXX" file more explicit (at the moment is too intrusive)
 # TODO: Recursive macro-expansion
@@ -25,17 +24,17 @@ from os.path import join as p_join, dirname as p_dirname, realpath as p_realpath
 
 ## EDIT - BEGIN ##
 project = {
-    'description': [####],
-    'hosttype': [####],
-    'repotype': [####],
-    'username': [####],
-    'author': [####],
-    'author_email': [####],
-    'license': [####],
+    'description': XXXXXXX,
+    'hosttype': XXXXXXX,
+    'repotype': XXXXXXX,
+    'username': XXXXXXX,
+    'author': XXXXXXX,
+    'author_email': XXXXXXX,
+    'license': XXXXXXX,
     'classifiers': [
-        [####]
+        XXXXXXX
     ],
-    'keywords': [ [####] ],
+    'keywords': [ XXXXXXX ],
     'macros_to_replace': ['name', 'username', 'description', 'author', 'author_email', 'license'],
 }
 project['name'] = p_basename(p_dirname(p_realpath(__file__)))

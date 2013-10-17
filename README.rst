@@ -37,6 +37,17 @@ itself. Just:
 6. Initialise your versioning system inside this directory.
 
 
+Build Status
+------------
+
+When properly integrated with Travis the project's status
+should appear below this:
+
+.. image:: https://secure.travis-ci.org/rowanthorpe/gaidaros.png?branch=master
+   :alt: Build Status
+   :target: https://secure.travis-ci.org/rowanthorpe/gaidaros
+
+
 Authors
 -------
 
@@ -52,7 +63,7 @@ setup-with-teeth uses the MIT license, check LICENSE file.
 Contributors
 ------------
 
-* Just Rowan, so far...
+* Just Rowan Thorpe, so far...
 
 
 Thanks also to

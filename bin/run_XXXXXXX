@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+if __name__ == '__main__':
+    ## edit this line if you wish to have a different fallback
+    conf = '/usr/local/etc/XXXXXXX/XXXXXXX.conf'
+# ... XXXXXXX ...
