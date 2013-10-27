@@ -7,7 +7,7 @@ from __future__ import unicode_literals, with_statement
 #
 # See README.rst for more information.
 #
-# This setup.py and file hierarchy is from the setup-with-teeth project (v0.2.3):
+# This setup.py and file hierarchy is from the setup-with-teeth project (v0.2.4):
 #  https://github.com/rowanthorpe/setup-with-teeth
 #  replace all XXXXXXX with your own text
 
@@ -211,7 +211,7 @@ if sys.argv[1] == 'macros':
         else:
             sys.stderr.write("Repo type {} not implemented yet.\n".format(project['repotype']))
             sys.exit(1)
-        project['version'] = '.'.join(map(str, _projectversionstr[:-1] + [_projectversionstr[-1] + 1]))
+        project['version'] = '.'.join(_projectversionstr[:-1] + [unicode(int(_projectversionstr[-1]) + 1)])
     for file_to_expand in project['files_to_expand']:
         file_to_expand = p_join('.', file_to_expand)
         if p_isfile(file_to_expand + '.in'):
