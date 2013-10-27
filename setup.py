@@ -7,7 +7,7 @@ from __future__ import unicode_literals, with_statement
 #
 # See README.rst for more information.
 #
-# This setup.py and file hierarchy is from the setup-with-teeth project (v0.2.0):
+# This setup.py and file hierarchy is from the setup-with-teeth project (v0.2.2):
 #  https://github.com/rowanthorpe/setup-with-teeth
 #  replace all XXXXXXX with your own text
 
