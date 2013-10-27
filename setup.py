@@ -13,6 +13,7 @@ from __future__ import unicode_literals, with_statement
 
 # FIXME: Make updating files with paths part of the build pass, not post-install
 # FIXME: Make macro expansion in "bin/XXXXXXX" file more explicit (at the moment is too intrusive)
+# FIXME: Generate project name from directory (even in virtualenv, pip, etc)
 # TODO: add logic for using more vars from projects[], e.g. package_data, etc
 # TODO: add more hosttypes
 # TODO: Recursive macro-expansion
@@ -74,7 +75,8 @@ project = {
 
 ## MAY BE EDITED ##
 
-project['name'] = unicode(p_basename(_projectpath))
+#project['name'] = unicode(p_basename(_projectpath)) #FIXME: doesn't play nice with virtualenv
+project['name'] = 'XXXXXXX'
 sys.path.insert(0, p_join(_projectpath, 'lib'))
 project.update({
     'files_to_expand': (p_join('lib', project['name'] + '.py'), 'README.rst'), #'MANIFEST.in',
