@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # encoding: utf-8
 from __future__ import unicode_literals
-from XXXXXXX import XXXXXXX
-
+from XXXXXXX import *
 XXXXXXX

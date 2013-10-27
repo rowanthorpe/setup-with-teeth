@@ -1,3 +1,6 @@
+* This README serves two purposes: description of setup-with-teeth, and a template for your own README.
+* Rewrite this README to be relevant to your package, then remove these lines
+
 ==============================================================
 setup-with-teeth: setup.py & file hierarchy for fast packaging
 ==============================================================
@@ -43,9 +46,9 @@ Build Status
 When properly integrated with Travis the project's status
 should appear below this:
 
-.. image:: https://secure.travis-ci.org/rowanthorpe/gaidaros.png?branch=master
+.. image:: https://secure.travis-ci.org/XXXXXXX/XXXXXXX.png?branch=master
    :alt: Build Status
-   :target: https://secure.travis-ci.org/rowanthorpe/gaidaros
+   :target: https://secure.travis-ci.org/XXXXXXX/XXXXXXX
 
 
 Authors

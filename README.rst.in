@@ -1,3 +1,6 @@
+* This README serves two purposes: description of setup-with-teeth, and a template for your own README.
+* Rewrite this README to be relevant to your package, then remove these lines
+
 ==============================================================
 setup-with-teeth: @description@
 ==============================================================
