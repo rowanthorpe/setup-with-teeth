@@ -6,6 +6,6 @@ from __future__ import unicode_literals
 @description@
 """
 __version__ = '@version@'
-__all__ = ('XXXXXXX',)
+__all__ = (b'XXXXXXX',)
 
 XXXXXXX
